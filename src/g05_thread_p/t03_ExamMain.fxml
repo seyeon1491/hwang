@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- focusTraversable="true" node가 focus를 인지하지 않고 관통시키는것
+							key event의 주체가 되지않도록 설정 -->
+
+<AnchorPane fx:id="totalp" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="g05_thread_p.t03_ExamController">
+   <children>
+      <Pane fx:id="ball" focusTraversable="true" layoutX="190.0" layoutY="560.0" prefHeight="20.0" prefWidth="20.0">
+         <children>
+            <Circle fill="#1fff34" focusTraversable="true" layoutX="10.0" layoutY="10.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="bar" focusTraversable="true" layoutX="150.0" layoutY="580.0" prefHeight="10.0" prefWidth="100.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="10.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+         </children></Pane>
+      <Label fx:id="label" alignment="CENTER" layoutX="125.0" layoutY="271.0" prefHeight="59.0" prefWidth="151.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Pane fx:id="box" layoutY="0.0" prefHeight="30.0" prefWidth="400.0">
+         <children>
+            <Rectangle fx:id="pb1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+            <Rectangle fx:id="pb2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="320.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+            <Rectangle fx:id="pb3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="240.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+            <Rectangle fx:id="pb4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="160.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+            <Rectangle fx:id="pb5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="80.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

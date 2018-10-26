@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="title" alignment="CENTER" layoutX="122.0" layoutY="82.0" prefHeight="15.0" prefWidth="56.0" text="Label" />
+      <TextArea fx:id="ta" editable="false" layoutX="15.0" layoutY="110.0" prefHeight="240.0" prefWidth="270.0" />
+      <TextField fx:id="tf" layoutX="15.0" layoutY="365.0" prefHeight="15.0" prefWidth="270.0" />
+      <TextField fx:id="ip" layoutX="60.0" layoutY="30.0" prefHeight="15.0" prefWidth="170.0" />
+      <Label fx:id="title1" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="30.0" prefHeight="23.0" prefWidth="45.0" text="ip 주소" />
+      <Button fx:id="btn" layoutX="230.0" layoutY="30.0" mnemonicParsing="false" prefWidth="55.0" text="접속" />
+   </children>
+</AnchorPane>

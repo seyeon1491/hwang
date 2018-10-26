@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="subLayout" prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #ffff00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Exam.SubController4">
+   <children>
+      <Button fx:id="subBtn" layoutX="165.0" layoutY="527.0" mnemonicParsing="false" onAction="#subClose" text="sub Close" />
+      <Label fx:id="kor" alignment="CENTER" contentDisplay="RIGHT" layoutX="93.0" layoutY="124.0" prefHeight="43.0" prefWidth="217.0" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="mat" alignment="CENTER" contentDisplay="RIGHT" layoutX="93.0" layoutY="221.0" prefHeight="43.0" prefWidth="217.0" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="eng" alignment="CENTER" contentDisplay="RIGHT" layoutX="93.0" layoutY="315.0" prefHeight="43.0" prefWidth="217.0" style="-fx-background-color: #ffff00;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

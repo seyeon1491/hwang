@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="300.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.g06_EventMain2">
+	
+
+
+   <top>
+      <Label fx:id="label1" prefHeight="21.0" prefWidth="172.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+   <!-- onAction = 엔터키 -->
+      <TextField fx:id="tf1" onAction="#btnClk" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+   <!-- onAction = 버튼클릭 -->
+      <Button onAction="#btnClk" text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+
+<!-- <?import javafx.scene.control.*?> -->
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="700" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControlMain">
+   <children>
+ 
+ 
+      <CheckBox fx:id="checkBox" mnemonicParsing="false" selected="true" text="abcd" />
+ 
+ 
+      <RadioButton fx:id="genM" mnemonicParsing="false" text="남자">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="genF" mnemonicParsing="false" selected="true" text="여자" toggleGroup="$gender" />
+      <Slider fx:id="zoom" max="255.0" value="100.0" />
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+       
+        
+            <ComboBox fx:id="email" prefWidth="150.0"> 
+            	<items>
+            		<FXCollections fx:factory="observableArrayList">
+            			<String fx:value="google.com" />
+            			<String fx:value="naver.com" />
+            			<String fx:value="daum.net" />
+            			<String fx:value="zum.com" />
+            		</FXCollections>	
+            	</items>
+            	<value>
+            		<String fx:value="daum.net" />
+            	</value>
+            </ComboBox>
+         </children>
+      </GridPane>
+ 
+ 
+   </children>
+</VBox>

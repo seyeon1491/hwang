@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="471.0" prefWidth="299.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <FlowPane layoutX="67.0" layoutY="164.0" prefHeight="90.0" prefWidth="165.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </FlowPane>
+      <CheckBox layoutX="110.0" layoutY="65.0" mnemonicParsing="false" text="CheckBox" />
+      <Button layoutX="122.0" layoutY="116.0" mnemonicParsing="false" text="Button" />
+      <TilePane layoutX="50.0" layoutY="271.0" prefHeight="200.0" prefTileHeight="100.0" prefTileWidth="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </TilePane>
+   </children>
+</AnchorPane>

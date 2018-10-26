@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="460.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui02_layout_p.l03_Exam_계산기">
+   <children>
+      <Pane prefHeight="130.0" prefWidth="300.0">
+         <children>
+            <Label fx:id="mon" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="35.0" layoutY="29.0" prefHeight="25.0" prefWidth="230.0" style="-fx-background-color: #dddddd;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </Label>
+            <Label fx:id="mon1" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="35.0" layoutY="61.0" prefHeight="47.0" prefWidth="230.0" style="-fx-background-color: #dddddd;">
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Pane>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="295.0">
+         <children>
+            <Button fx:id="set" mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" text="C">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="del" mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" text="&lt;=">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="295.0">
+         <children>
+            <Button fx:id="num7" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num8" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num9" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="add" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="+" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="295.0">
+         <children>
+            <Button fx:id="num4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num6" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="sub" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="-" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="295.0">
+         <children>
+            <Button fx:id="num1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="num3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="mul" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="*" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="295.0">
+         <children>
+            <Button fx:id="num0" mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" text="0">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="eq" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="=">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="div" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="/" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

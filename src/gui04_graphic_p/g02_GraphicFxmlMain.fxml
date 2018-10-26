@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui04_graphic_p.g02_GraphicFxmlMain">
+   <center>
+      <Pane prefHeight="394.0" prefWidth="2236.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle fx:id="nm" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" rotate="-48.8" strokeType="INSIDE" strokeWidth="10.0" width="100.0" x="50.0" y="50.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Rectangle>
+            <Polyline fx:id="sm" fill="CHARTREUSE" layoutX="1230.0" layoutY="135.0" rotate="90.0" strokeType="INSIDE">
+              <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="-40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="-40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="60.0" />
+                <Double fx:value="-50.0" />
+                <Double fx:value="-40.0" />
+              </points>
+            </Polyline>
+            <Circle fx:id="o" fill="DODGERBLUE" layoutX="385.0" layoutY="150.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Arc fx:id="ak" fill="DODGERBLUE" layoutX="300.0" layoutY="305.0" length="270.0" radiusX="100.0" radiusY="100.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+            <CubicCurve fx:id="grp" controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="200.0" endX="300.0" endY="-80.0" fill="DODGERBLUE" layoutX="483.0" layoutY="324.0" startX="-150.0" stroke="BLACK" />
+            <Ellipse fx:id="to" fill="DODGERBLUE" layoutX="495.0" layoutY="207.0" radiusX="348.0" radiusY="69.0" rotate="-63.4" stroke="BLACK" strokeType="INSIDE" />
+            <Ellipse fx:id="to1" fill="DODGERBLUE" layoutX="944.0" layoutY="207.0" radiusX="348.0" radiusY="69.0" rotate="63.4" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="bb" layoutX="685.0" layoutY="164.0" mnemonicParsing="false" text="Button" />
+            <Arc fx:id="qq" fill="DODGERBLUE" layoutX="1133.0" layoutY="143.0" length="180.0" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

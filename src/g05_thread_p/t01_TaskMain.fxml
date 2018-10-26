@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="210.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="g05_thread_p.t01_TaskController">
+   <children>
+      <Label fx:id="label" layoutX="142.0" layoutY="65.0" text="0" />
+      <Button fx:id="sb" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="123.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0">
+         <graphic>
+            <HBox fx:id="pp" alignment="CENTER" prefHeight="23.0" prefWidth="28.0">
+               <children>
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="DODGERBLUE" height="10.0" stroke="BLACK" strokeType="INSIDE" width="4.0" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="DODGERBLUE" height="10.0" stroke="BLACK" strokeType="INSIDE" width="4.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Rectangle>
+               </children>
+            </HBox>
+         </graphic></Button>
+      <Button fx:id="pb" layoutX="198.0" layoutY="123.0" mnemonicParsing="false" text="종료" />
+      <Polyline fx:id="ss" fill="CHARTREUSE" layoutX="52.0" layoutY="25.0" rotate="-90.0" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-5.0" />
+          <Double fx:value="-4.0" />
+          <Double fx:value="5.0" />
+          <Double fx:value="-4.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="6.0" />
+          <Double fx:value="-5.0" />
+          <Double fx:value="-4.0" />
+        </points>
+      </Polyline>
+   </children>
+</AnchorPane>
